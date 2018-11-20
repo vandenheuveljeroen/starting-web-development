@@ -1,0 +1,132 @@
+body {
+  background-color: lightgrey;
+  width:100%;
+  height:100%;
+  font-size: 16px;
+  font-family: Montserrat;
+  padding:0px;
+  margin:0px;
+}
+h1 {
+  color:red;
+  text-align: center;
+}
+
+.grid-container {
+  display:grid;
+/*  grid-template-columns: 1;
+  grid-template-rows:3;*/
+  width: 600px;
+  margin: auto;
+  grid-gap:16px;
+
+}
+.intro {
+  margin: auto;
+  border: 2px solid 	#787878;
+  text-align: center;
+  background-color: #FFF;
+  padding: 10px
+}
+.imageintro{
+  border: 4px solid lightgrey;
+  border-radius: 50%;
+}
+.button {
+  display:flex;
+  margin:auto;
+  background-color: red;
+  padding:8px;
+  border:none;
+  border-radius: 15px;
+
+}
+.button a{
+  color:white;
+  font-size:18px;
+  text-decoration:none;
+  border:none;
+}
+
+.socialmedia {
+  display:flex;
+  justify-content: center;
+  border : 2px solid 	#787878;
+  align-items: center;
+  font-size: 20px;
+  height: 120px;
+  background-color: #FFF;
+
+}
+.socialmedia a {
+  display:flex;
+  color:#BEBEBE;
+  padding:5px;
+  justify-content: space-between;
+  text-decoration: none;
+
+}
+
+.movies {
+  display:grid;
+  grid-template-rows:auto auto auto auto;
+  border: 2px solid 	#787878;
+  background-color: #FFF;
+  padding:5px;
+
+}
+.movies p {
+  padding:5px;
+}
+.movies h3 {
+  text-align: center;
+}
+.titel1 {
+  display: flex;
+  justify-content: center;
+
+}
+
+.movie1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding-right:5px;
+}
+
+.movie2{
+  display:grid;
+  grid-template-columns: auto auto;
+  padding-right:5px;
+}
+.movie3{
+  display:grid;
+  grid-template-columns: auto auto;
+}
+
+
+/*
+.foto1 {
+  display:flex;
+
+}
+.beschrijving1 {
+
+}
+
+.pasfoto {
+  display:flex;
+  justify-content: center;
+
+}
+
+.pasfoto img {
+  border: 4px solid lightgrey;
+  border-radius: 50%;
+}
+
+.tekst1 {
+
+}
+.tekst1 h2,h1 {
+text-align: center;
+}
